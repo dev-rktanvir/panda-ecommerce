@@ -26,6 +26,10 @@ h6 {
     box-sizing: border-box;
 }
 
+html {
+    font-size: 16px;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -141,15 +145,17 @@ nav {
 }
 
 /* Showes section */
-.product{
-    padding: 100px 12px;
+.product {
+    padding: 80px 12px;
 }
-.products{
+
+.products {
     margin-top: 24px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 24px;
 }
+
 .pro-card {
     padding: 24px;
     border-radius: 20px;
@@ -165,7 +171,8 @@ nav {
     text-align: center;
     margin-top: 22px;
 }
-.btn-pro{
+
+.btn-pro {
     margin: 0 auto;
 }
 

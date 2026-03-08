@@ -1,5 +1,8 @@
 /* Css For Mobile */
 @media screen and (max-width:640px) {
+    html {
+        font-size: 14px;
+    }
 
     /* Hero Section */
     .hero {
