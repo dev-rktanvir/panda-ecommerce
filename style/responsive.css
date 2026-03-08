@@ -1,0 +1,31 @@
+/* Css For Mobile */
+@media screen and (max-width:640px) {
+
+    /* Hero Section */
+    .hero {
+        flex-direction: column-reverse;
+        padding: 20px;
+        margin: 30px auto;
+    }
+
+    .hero p {
+        max-width: 100%;
+        text-align: justify;
+    }
+}
+
+/* Css for Tablet */
+@media screen and (min-width:640px) and (max-width:992px) {
+
+    /* Hero Section */
+    .hero {
+        flex-direction: column-reverse;
+        padding: 30px;
+        margin: 30px auto;
+    }
+
+    .hero p {
+        max-width: 100%;
+        text-align: justify;
+    }
+}
