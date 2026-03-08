@@ -186,3 +186,45 @@ h3 {
 .fa-arrow-right-long {
     margin-left: 5px;
 }
+
+/* Footer section */
+.footer{
+    background-color: #FFF2F1;
+    padding: 100px;
+    margin-bottom: 40px;
+}
+.foot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.foot h2{
+    font-weight: 600;
+    font-size: 1.875rem;
+    color: #1F1F1F;
+}
+.foot p{
+    font-weight: 500;
+}
+.foot input{
+    background-color: white;
+    padding: 22px 35px;
+    color: #CCCCCC;
+    font-weight: 400;
+    font-size: 1.5rem;
+    border: none;
+}
+.foot-btn{
+    padding: 22px 35px;
+    background-image: linear-gradient(to right, #FF589B, #FF136F);
+    border: none;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+}
+.input{
+    border-radius: 12px;
+    max-width: 70%;
+}
