@@ -96,6 +96,12 @@ nav {
     margin: 60px auto;
 }
 
+.hero-content{
+    width: 60%;
+}
+.hero-img{
+    width: 40%;
+}
 .hero h1 {
     font-weight: 700;
     font-size: 3.5rem;
@@ -188,26 +194,31 @@ h3 {
 }
 
 /* Footer section */
-.footer{
+.footer {
     background-color: #FFF2F1;
     padding: 100px;
     margin-bottom: 40px;
 }
-.foot{
+
+.foot {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.foot h2{
+
+.foot h2 {
     font-weight: 600;
     font-size: 1.875rem;
     color: #1F1F1F;
 }
-.foot p{
+
+.foot p {
     font-weight: 500;
+    text-align: center;
 }
-.foot input{
+
+.foot input {
     background-color: white;
     padding: 22px 35px;
     color: #CCCCCC;
@@ -215,7 +226,8 @@ h3 {
     font-size: 1.5rem;
     border: none;
 }
-.foot-btn{
+
+.foot-btn {
     padding: 22px 35px;
     background-image: linear-gradient(to right, #FF589B, #FF136F);
     border: none;
@@ -224,7 +236,8 @@ h3 {
     color: white;
     cursor: pointer;
 }
-.input{
+
+.input {
     border-radius: 12px;
     max-width: 70%;
 }
