@@ -29,6 +29,7 @@ h6 {
 .container {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 12px;
 }
 
 .flex {
@@ -69,6 +70,7 @@ img{
 /* Navbar Desing */
 .header{
     margin: 0 12px;
+    padding: 0;
 }
 nav{
     padding: 18px 0;
@@ -101,4 +103,28 @@ nav{
 }
 .hero p{
     max-width: 70%;
+}
+
+/* Category Section */
+.ctg-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 26px;
+    margin-top: 30px;
+}
+.ctg-card{
+    border-radius: 10px;
+    padding: 12px 40px;
+    background-image: linear-gradient(to right, #FF9C35, #FF9C35);
+}
+.ctg-card h3{
+    font-weight: 500;
+    color: white;
+    font-size: 2.25rem;
+}
+.ct-2{
+    background-image: linear-gradient(to right, #FF136F, #FF136F);
+}
+.ct-3{
+    background-image: linear-gradient(to right, #3F07F8, #3F07F8);
 }
