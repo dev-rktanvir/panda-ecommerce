@@ -17,3 +17,48 @@ h6 {
     font-weight: 400;
     font-style: normal;
 }
+
+/* Global Css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-title {
+    font-weight: 600;
+    font-size: 2.25rem;
+    color: #1F1F1F;
+}
+
+.text {
+    font-size: 1rem;
+    line-height: 1.625rem;
+    color: #4E4E4E;
+}
+
+/* ****************************************************************** */
+
+/* Navbar Desing */
+.header{
+    margin: 0 12px;
+}
+nav{
+    padding: 18px 0;
+}
+.fa-bars{
+    font-size: 40px;
+    cursor: pointer;
+}
