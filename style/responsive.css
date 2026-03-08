@@ -65,6 +65,15 @@
         margin: 30px auto;
     }
 
+    .hero-content {
+        width: 100%;
+    }
+
+    .hero-img {
+        width: 100%;
+        text-align: center;
+    }
+
     .hero p {
         max-width: 100%;
         text-align: justify;
